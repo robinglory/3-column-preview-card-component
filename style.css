@@ -1,0 +1,85 @@
+/* attribution */
+.attribution { 
+   font-size: 11px; 
+   text-align: center;
+   margin: 1%;
+
+    }
+.attribution a:hover { color: hsl(228, 45%, 44%); }
+
+/* body */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-color: snow;
+   font-size: 15px;
+   font-family: 'Big Shoulders Display', cursive;
+   font-family: 'Lexend Deca', sans-serif;
+}
+/*wrapper*/
+.wrapper{
+   margin-top: 10%;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   padding-left: 5%;
+   padding-right: 5%;
+   box-shadow: 10px 10px 5px #aaaaaa;
+   border-left: 1px soild gainsboro;
+   background-color: hsl(0, 0%, 95%);
+}
+
+.sedans{
+   background-color: hsl(31, 77%, 52%);
+   padding: 5%;
+}
+
+.suvs{
+   background-color: hsl(184, 100%, 22%);
+   padding: 5%;
+}
+
+.luxury{
+   background-color: hsl(179, 100%, 13%);
+   padding: 5%;
+}
+
+h1{
+   color:  hsl(0, 0%, 95%);
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+p{
+   color:hsla(0, 0%, 100%, 0.75);
+   margin-bottom: 20px;
+}
+img{
+   margin-top: 5%;
+   padding-top: 5%;
+   padding-bottom: 10px;
+}
+
+button{
+   padding: 10px 20px;
+   border: none;
+   background-color: white;
+   border-radius: 12px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   display: inline-block;
+}
+
+.sedans>button{
+   color: hsl(31, 77%, 52%);
+}
+
+.suvs>button{
+   color: hsl(184, 100%, 22%)
+}
+
+.luxury>button{
+    color: hsl(179, 100%, 13%);
+}
