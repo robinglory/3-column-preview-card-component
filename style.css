@@ -26,10 +26,11 @@ body{
    padding-bottom: 10%;
    padding-left: 5%;
    padding-right: 5%;
-   box-shadow: 10px 10px 5px #aaaaaa;
    border-left: 1px soild gainsboro;
    background-color: hsl(0, 0%, 95%);
 }
+.wrapper::hover{
+   box-shadow: 10px 10px 5px #aaaaaa;}
 
 .sedans{
    background-color: hsl(31, 77%, 52%);
